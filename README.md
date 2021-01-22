@@ -2,7 +2,4 @@
 
 ## My version of the mixed messages project on Code Academy
 The goal of this project is to create a basic program that generates a random message each time it is run.
-### Languages 
-* Javascript 
-* HTML
-* CSS 
+### Created to run on Node.js
