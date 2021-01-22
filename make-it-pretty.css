@@ -1,10 +1,18 @@
 #messageContainer {
-  color: #86beff;
+  color: #c70039;
+  font-family: "Poppins";
+  text-shadow: 3px 1px #ff0000;
+  font-size: 70px;
   display: flex;
-  font-size: 50px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 230px;
+  flex-direction: row;
+  width: 1000px;
+  height: 300px;
 }
 body {
-  background-color: #fbf8c1;
+  background-color: #fbf3cd;
 }

@@ -9,7 +9,7 @@ const nouns = [
 const adjectives = [
   "weird",
   "lucrative",
-  "attractive",
+  "psycho",
   "awkward",
   "interesting",
   "bodacious",
