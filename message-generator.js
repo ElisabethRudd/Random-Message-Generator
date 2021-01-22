@@ -15,10 +15,12 @@ const adjectives = [
   "bodacious",
 ];
 const fillerNoun = nouns[Math.floor(Math.random() * 6)];
+const fillerNoun2 = nouns[Math.floor(Math.random() * 6)];
+
 const fillerAdjective = adjectives[Math.floor(Math.random() * 6)];
 console.log(fillerNoun);
 let messages = [
-  `Frankly my ${fillerNoun}, I don't give a ${fillerNoun}.`,
+  `Frankly my ${fillerNoun}, I don't give a ${fillerNoun2}.`,
   `I'm gonna make him a ${fillerNoun} he can't refuse.`,
   `May the ${fillerNoun} be with you.`,
   `Love means never having to say you're ${fillerAdjective}.`,
@@ -27,5 +29,7 @@ let messages = [
   `Say hello to my little ${fillerNoun}!`,
   `Fasten your seatbelts. It's going to be a ${fillerAdjective} night.`,
 ];
-let yourMessage = messages[Math.floor(Math.random() * 7)];
+let yourMessage = messages[Math.floor(Math.random() * 8)];
 console.log(yourMessage);
+
+document.getElementById("messageContainer").textContent = yourMessage;
