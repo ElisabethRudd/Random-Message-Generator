@@ -1,5 +1,5 @@
 const nouns = [
-  "iguana",
+  "waffle cone",
   "platypus",
   "piece of bacon",
   "seagull",
@@ -10,8 +10,8 @@ const adjectives = [
   "weird",
   "lucrative",
   "psycho",
-  "awkward",
-  "interesting",
+  "cumbersome",
+  "fascinating",
   "bodacious",
 ];
 const fillerNoun = nouns[Math.floor(Math.random() * 6)];
