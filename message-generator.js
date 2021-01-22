@@ -32,4 +32,5 @@ let messages = [
 let yourMessage = messages[Math.floor(Math.random() * 8)];
 console.log(yourMessage);
 
-document.getElementById("messageContainer").textContent = yourMessage;
+//document.getElementById("messageContainer").textContent = yourMessage;
+console.log(yourMessage);
